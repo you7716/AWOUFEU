@@ -1,0 +1,43 @@
+*{
+	text-decoration: none;
+}
+body{
+	background: url('photo-1518965493882-35b838ace024.jpg');
+}
+p{
+	color: red;
+	font-size: 200%;
+	font-weight: bolder;
+}
+p:hover{
+	color: white;
+}
+p2{
+	color: yellow;
+	font-size: 300%;
+	font-weight: bold;
+
+}
+p2:hover{
+	color:white ;
+}
+p3{
+	font-size: 150%;
+	color:white;
+	margin-left: 3%;
+}
+p4{
+	display: inline-block;
+	color:white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: crimson;
+    border:2px solid crimson;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+p4:hover{
+	background:none; 
+}

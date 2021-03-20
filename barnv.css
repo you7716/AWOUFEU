@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url('istockphoto-1128687123-612x612.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+.navbare{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.log{
+	width: 140px;
+	height: 55px;
+	padding: 15px 50px;
+}
+.navbare ul{
+	float: right;
+	margin-right: 350px; 
+
+}
+.navbare ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbare ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding: 6px 13px;
+	transition: .4s;
+}
+.navbare ul li a.active,
+.navbare ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select:none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	 font-weight: bolder;
+	 width:900px;
+	 text-align: center;
+}
+.center h6{
+	color: white;
+	font-size: 50px;
+	 font-weight: bolder;
+	 width:885px;
+	 text-align: center;
+	 margin-top: 10px;
+}
+.center .bouton{
+	margin: 35px 280px;
+}
+.bouton button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffb3b3;
+	background: red;
+	border:1px solid #cc0000;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+} 
+.bouton .btn{
+	margin-left: 25px;
+
+}
+.bouton button:hover{
+	background: #cc0000;
+}
+.navbare ul ul{
+	display: none;
+	position: absolute;
+	border:2px solid #ffb3b3;
+}
+.navbare ul li:hover >ul{
+	display: block;
+}
+.sousmenu{ 
+	width: 45%;
+   border: 10px solid green;
+   margin-right: 0px;
+    background-color: #ffb3b3;
+ }
+ .sousmenu ul{ 
+     width: 5%;
+     height: 5%;
+
+}

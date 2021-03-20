@@ -1,0 +1,49 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background: url('FB_IMG_16107379617301873.jpg');
+}
+.bar1{
+	width: 860px;
+	margin: 0 auto;
+}
+
+.bar1 ul{
+	list-style:none;
+	margin-top: 2%;
+
+}
+.bar1 ul li{
+	background: #262626;
+	width: 250px;
+	border:1px solid #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	position: relative;	
+	left: 10%;
+
+}
+.bar1 ul li:hover{
+    background: crimson;
+}
+.bar1 ul ul{
+	display: none;
+}
+.bar1 ul li:hover > ul{
+	display: block;
+}
+.bar1 ul ul ul{
+	margin-left:170px;
+	top:0px;
+	position: absolute;
+
+}
